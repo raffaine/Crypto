@@ -18,13 +18,16 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     caesarcrypto.cpp \
     caesarshiftdialog.cpp \
-    crazycaesar.cpp
+    crazycaesar.cpp \
+    crazycaesardialog.cpp
 
 HEADERS  += mainwindow.h \
     caesarcrypto.h \
     ICryptographer.h \
     caesarshiftdialog.h \
-    crazycaesar.h
+    crazycaesar.h \
+    crazycaesardialog.h
 
 FORMS    += mainwindow.ui \
-    caesarshiftdialog.ui
+    caesarshiftdialog.ui \
+    crazycaesardialog.ui
