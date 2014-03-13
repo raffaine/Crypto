@@ -27,6 +27,7 @@ private slots:
 
     void on_actionCaesar_Shift_triggered();
     //void on_closeDlg();
+    void on_actionCrazy_Caesar_triggered();
 };
 
 #endif // MAINWINDOW_H

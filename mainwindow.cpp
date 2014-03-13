@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 
 #include "caesarcrypto.h"
+#include "crazycaesar.h"
 #include "caesarshiftdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -49,4 +50,9 @@ void MainWindow::on_actionCaesar_Shift_triggered()
     if( dlg.result() == QDialog::Accepted ) {
         m_crypto.reset( dlg.createChosenCrypto() );
     }
+}
+
+void MainWindow::on_actionCrazy_Caesar_triggered()
+{
+    m_crypto.reset( new CrazyCaesar(1) );
 }

@@ -89,6 +89,7 @@
      <string>Selecionar Encriptador</string>
     </property>
     <addaction name="actionCaesar_Shift"/>
+    <addaction name="actionCrazy_Caesar"/>
    </widget>
    <addaction name="menuSelecionar_Encriptador"/>
   </widget>
@@ -104,6 +105,11 @@
   <action name="actionCaesar_Shift">
    <property name="text">
     <string>Caesar Shift</string>
+   </property>
+  </action>
+  <action name="actionCrazy_Caesar">
+   <property name="text">
+    <string>Crazy Caesar</string>
    </property>
   </action>
  </widget>

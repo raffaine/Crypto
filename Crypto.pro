@@ -15,12 +15,14 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     caesarcrypto.cpp \
-    caesarshiftdialog.cpp
+    caesarshiftdialog.cpp \
+    crazycaesar.cpp
 
 HEADERS  += mainwindow.h \
     caesarcrypto.h \
     ICryptographer.h \
-    caesarshiftdialog.h
+    caesarshiftdialog.h \
+    crazycaesar.h
 
 FORMS    += mainwindow.ui \
     caesarshiftdialog.ui
